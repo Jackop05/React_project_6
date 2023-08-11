@@ -1,0 +1,74 @@
+/* npx tailwindcss -i ./src/styles/input.scss -o ./src/styles/output.css --watch */
+
+body {
+    @apply p-0 m-0 bg-lightGray 
+}
+
+
+
+
+.starting-site {
+    @apply flex flex-col justify-center mx-auto h-fvh w-fvw text-center text-dark
+}
+
+.title {
+    @apply text-30 font-bold mb-7
+}
+
+.description-quiz {
+    @apply text-16 mb-30
+}
+
+.quiz-btn {
+    @apply w-200 text-lightGray py-15 bg-blue rounded-xl mx-auto cursor-pointer
+}
+
+
+
+.hero {
+    @apply bg-lightGray flex flex-col justify-center border-2 border-solid border-dark w-500 rounded-2xl mx-auto my-40 py-40 px-10
+}
+
+.questions {
+    @apply mx-auto w-400 mb-10
+}
+
+.question {
+    @apply font-bold text-16 text-dark mb-10
+}
+
+.answers {
+    @apply flex justify-between mb-15
+}
+
+.answer {
+    @apply w-65 py-5 text-10 text-dark text-center text-center flex flex-col justify-center font-bold border-solid border-dark border-1 rounded-md cursor-pointer
+}
+
+.selected {
+    @apply bg-gray border-gray 
+}
+
+.correct {
+    @apply bg-green border-green
+}
+
+.incorrect {
+    @apply bg-red border-red
+}
+
+.line {
+    @apply mb-30 text-light w-400
+}
+
+.check-btn {
+    @apply mx-auto w-120 text-10 py-10 rounded-xl bg-blue text-lightGray text-center font-bold cursor-pointer
+}
+
+.scored-points {
+    @apply font-bold text-16 text-dark mb-10 mx-auto text-center mb-15
+}
+
+.play-again {
+    @apply mx-auto w-120 text-10 py-10 rounded-xl bg-blue text-lightGray text-center font-bold cursor-pointer mb-10
+}

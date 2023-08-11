@@ -1,0 +1,183 @@
+/* npx tailwindcss -i ./src/styles/input.scss -o ./src/styles/output.css --watch */
+
+body {
+  margin: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 247 251 / var(--tw-bg-opacity));
+  padding: 0px
+}
+
+.starting-site {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(41 50 100 / var(--tw-text-opacity))
+}
+
+.title {
+  margin-bottom: 7px;
+  font-size: 30px;
+  font-weight: 700
+}
+
+.description-quiz {
+  margin-bottom: 30px;
+  font-size: 16px
+}
+
+.quiz-btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 91 158 / var(--tw-bg-opacity));
+  padding-top: 15px;
+  padding-bottom: 15px;
+  --tw-text-opacity: 1;
+  color: rgb(245 247 251 / var(--tw-text-opacity))
+}
+
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(41 50 100 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 247 251 / var(--tw-bg-opacity));
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.questions {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 400px
+}
+
+.question {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(41 50 100 / var(--tw-text-opacity))
+}
+
+.answers {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between
+}
+
+.answer {
+  display: flex;
+  width: 65px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(41 50 100 / var(--tw-border-opacity));
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(41 50 100 / var(--tw-text-opacity))
+}
+
+.selected {
+  --tw-border-opacity: 1;
+  border-color: rgb(214 219 245 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 219 245 / var(--tw-bg-opacity))
+}
+
+.correct {
+  --tw-border-opacity: 1;
+  border-color: rgb(148 215 162 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 215 162 / var(--tw-bg-opacity))
+}
+
+.incorrect {
+  --tw-border-opacity: 1;
+  border-color: rgb(248 188 188 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 188 188 / var(--tw-bg-opacity))
+}
+
+.line {
+  margin-bottom: 30px;
+  width: 400px;
+  --tw-text-opacity: 1;
+  color: rgb(219 222 240 / var(--tw-text-opacity))
+}
+
+.check-btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 91 158 / var(--tw-bg-opacity));
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(245 247 251 / var(--tw-text-opacity))
+}
+
+.scored-points {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(41 50 100 / var(--tw-text-opacity))
+}
+
+.play-again {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 91 158 / var(--tw-bg-opacity));
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(245 247 251 / var(--tw-text-opacity))
+}
